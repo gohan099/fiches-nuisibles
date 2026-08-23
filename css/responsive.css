@@ -405,6 +405,10 @@
         padding: 16px;
     }
 
+    .mobile-header .mobile-call{
+        display: block;
+    }
+
     .identify-card {
         padding: 25px 15px;
         border-width: 5px;

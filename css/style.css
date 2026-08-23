@@ -1757,9 +1757,34 @@ HERO
 
 /* pages */
 
-.rat-page{
+.rats-page{
     background: url('../images/rat.jpeg')
-    center center/cover no-repeat;
+    center center / cover no-repeat;
+}
+
+.rats-page-2{
+    background: url('../images/rat2.webp')
+    center center / cover no-repeat;
+}
+
+.rats-page-3{
+    background: url('../images/rat3.webp')
+    center center / cover no-repeat;
+}
+
+.ants-page-4{
+    background: url('../images/bee-1.webp')
+    center center / cover no-repeat;
+}
+
+.ants-page-5{
+    background: url('../images/bee.jpeg')
+    center center / cover no-repeat;
+}
+
+.ants-page-6{
+    background: url('../images/insect-1.webp')
+    center center / cover no-repeat;
 }
 
 .bee-page{
