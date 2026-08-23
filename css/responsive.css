@@ -15,8 +15,6 @@
     .container {
         width: 100%;
         max-width: 100%;
-        padding-left: 30px;
-        padding-right: 30px;
     }
 
 
@@ -354,8 +352,6 @@
 
     .container {
         width: 100%;
-        padding-left: 20px;
-        padding-right: 20px;
     }
 
 
@@ -569,19 +565,23 @@
 
     .pest-card {
         border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
     }
 
     .pest-content {
         padding: 25px 20px 0;
-        min-height: auto;
+        min-height: 0;
     }
 
     .pest-top {
-        gap: 15px;
+        gap: 95px;
+        align-items: center;
     }
 
     .pest-top h3 {
-        font-size: 17px;
+        font-size: 18px;
     }
 
     .pest-top span {
@@ -645,6 +645,7 @@
 
     .footer {
         padding: 45px 20px;
+        text-align: center;
     }
 
     .footer-top {

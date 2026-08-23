@@ -286,7 +286,7 @@ header .containers{
 
 .mobile-header{
     display: none;
-    padding: 10px;
+    padding: 10px 20px;
 }
 
 .mobile-header .mobile-call{
