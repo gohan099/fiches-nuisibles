@@ -1,0 +1,1149 @@
+/* =========================================================
+   RESPONSIVE CSS
+   Tablet: 768px - 1024px
+   Mobile: below 767px
+========================================================= */
+
+
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width: 1024px) {
+
+    /* COMMON */
+    .container {
+        width: 100%;
+        max-width: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+
+    /* =========================
+       HERO
+    ========================= */
+
+    .hero {
+        margin: 15px 20px;
+        padding: 40px 0;
+        border-radius: 30px;
+    }
+
+    .hero-wrapper {
+        width: 100%;
+        max-width: 100%;
+        padding: 30px 25px;
+        gap: 20px;
+    }
+
+    .hero-card {
+        width: 60%;
+        padding: 30px;
+        border-width: 6px;
+    }
+
+    .hero-card h1 {
+        font-size: 38px;
+    }
+
+    .hero-card h3 {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    .hero-card p {
+        font-size: 15px;
+    }
+
+    .hero-btn {
+        margin-top: 30px;
+    }
+
+    .identify-card {
+        width: 40%;
+        padding: 30px 15px;
+        border-width: 6px;
+    }
+
+    .identify-card h2 {
+        font-size: 28px;
+    }
+
+    .identify-card ul {
+        padding: 0 25px;
+    }
+
+    .identify-card a {
+        font-size: 15px;
+        padding: 14px 20px;
+    }
+
+
+    /* =========================
+       WHY SECTION
+    ========================= */
+
+    .why-section {
+        padding: 50px 30px;
+    }
+
+    .section-title {
+        margin: 0 20px 50px;
+    }
+
+    .section-title h2 {
+        font-size: 30px;
+    }
+
+
+    /* =========================
+       INFO SECTION
+    ========================= */
+
+    .info-section {
+        padding: 70px 40px;
+    }
+
+    .info-wrapper {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+
+    .info-card {
+        padding: 25px;
+    }
+
+    .info-card h3 {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+
+    /* =========================
+       ABOUT US
+    ========================= */
+
+    .about-us {
+        padding: 80px 30px;
+    }
+
+    .about-wrapper {
+        grid-template-columns: 220px 1fr 220px;
+        gap: 25px;
+    }
+
+    .about-side-image.left img,
+    .about-side-image.right img {
+        height: 350px;
+    }
+
+    .about-content h2 {
+        font-size: 30px;
+    }
+
+    .about-content p,
+    .about-content ul li {
+        font-size: 15px;
+    }
+
+
+    /* =========================
+       POPULAR PESTS
+    ========================= */
+
+    .popular-pests {
+        padding: 50px 40px;
+    }
+
+    .pests-header {
+        gap: 40px;
+        margin-bottom: 40px;
+    }
+
+    .pests-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+
+    .pest-content {
+        padding: 30px 20px 0;
+    }
+
+    .pest-top {
+        gap: 20px;
+    }
+
+    .pest-image {
+        height: 260px;
+    }
+
+
+    /* =========================
+       CONTACT
+    ========================= */
+
+    .contact-section {
+        padding: 40px;
+    }
+
+    .contact-box {
+        padding: 60px 50px;
+        border-radius: 25px;
+    }
+
+    .contact-box h2 {
+        margin-bottom: 50px;
+    }
+
+
+    /* =========================
+       FOOTER
+    ========================= */
+
+    .footer {
+        padding: 50px 40px;
+    }
+
+    .footer-top {
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
+    }
+
+    .newsletter {
+        grid-column: 1 / -1;
+    }
+
+    .footer-bottom {
+        margin-top: 70px;
+    }
+
+
+    /* =========================
+       CONTACT PAGE
+    ========================= */
+
+    .contact-hero {
+        height: 350px;
+    }
+
+    .contact-hero-content h1 {
+        font-size: 42px;
+    }
+
+    .contact-form-section {
+        padding: 70px 30px 100px;
+    }
+
+    .contact-form-box {
+        max-width: 100%;
+    }
+
+
+    /* =========================
+       LEGAL
+    ========================= */
+
+    .legal-section,
+    .privacy-policy {
+        padding: 50px 40px;
+    }
+
+    .legal-grid {
+        gap: 25px;
+    }
+
+    .legal-box {
+        padding: 35px 25px;
+        min-height: 550px;
+    }
+
+    .legal-box h2 {
+        font-size: 26px;
+    }
+
+    .privacy-policy h1 {
+        font-size: 42px;
+    }
+
+    .policy-block h2 {
+        font-size: 30px;
+    }
+
+
+    /* =========================
+       PEST DETAIL
+    ========================= */
+
+    .pest-detail-page {
+        padding: 70px 40px;
+    }
+
+    .pest-layout {
+        grid-template-columns: 220px 1fr;
+        gap: 25px;
+    }
+
+    .pest-sidebar h3 {
+        margin-top: 50px;
+    }
+
+    .pest-article h2 {
+        font-size: 30px;
+    }
+
+    .pest-article h3 {
+        font-size: 22px;
+    }
+
+
+    /* =========================
+       BLOG
+    ========================= */
+
+    .rat-blog-all-card {
+        flex-wrap: wrap;
+    }
+
+    .rat-blog-card {
+        width: calc(50% - 5px);
+    }
+
+    .blog-hero {
+        height: 380px;
+        padding: 40px;
+        justify-content: center;
+    }
+
+    .blog-hero h1 {
+        font-size: 42px;
+        padding-left: 0;
+    }
+
+    .blog-meta {
+        padding-left: 0;
+    }
+
+    .blog-content {
+        padding: 40px 30px;
+    }
+
+    .container.narrow {
+        max-width: 100%;
+    }
+
+    .recent-posts {
+        padding: 0 30px 100px;
+    }
+
+    .blog-faq-section {
+        padding: 30px 30px 80px;
+    }
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 767px) {
+
+    /* =========================
+       COMMON
+    ========================= */
+
+    .container {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+
+    /* =========================
+       HERO
+    ========================= */
+
+    .hero {
+        margin: 10px;
+        padding: 20px 0;
+        border-radius: 20px;
+    }
+
+    .hero-wrapper {
+        flex-direction: column;
+        width: 100%;
+        padding: 20px 15px;
+        gap: 20px;
+    }
+
+    .hero-card,
+    .identify-card {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .hero-card {
+        padding: 25px 20px;
+        border-width: 5px;
+        margin-top: 0;
+        border-radius: 15px;
+    }
+
+    .hero-card h1 {
+        font-size: 32px;
+        line-height: 1.1;
+    }
+
+    .hero-card h3 {
+        font-size: 18px;
+        margin-bottom: 25px;
+    }
+
+    .hero-card p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .hero-btn {
+        margin-top: 25px;
+        padding: 16px;
+    }
+
+    .identify-card {
+        padding: 25px 15px;
+        border-width: 5px;
+        border-radius: 15px;
+    }
+
+    .identify-card h2 {
+        font-size: 27px;
+    }
+
+    .identify-card ul {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .identify-card ul li {
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+
+    .identify-card a {
+        margin-top: 10px;
+        font-size: 15px;
+        padding: 14px 20px;
+    }
+
+
+    /* =========================
+       WHY
+    ========================= */
+
+    .why-section {
+        padding: 40px 20px;
+    }
+
+    .section-title {
+        margin: 0 0 40px;
+    }
+
+    .section-title h2 {
+        font-size: 27px;
+        line-height: 1.2;
+    }
+
+    .section-title p {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+
+    /* =========================
+       INFO
+    ========================= */
+
+    .info-section {
+        padding: 50px 20px;
+    }
+
+    .info-wrapper {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .info-card {
+        padding: 25px 20px;
+    }
+
+    .info-card .icon svg {
+        width: 55px;
+        height: 55px;
+    }
+
+    .info-card h3 {
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+
+    .info-card h4 {
+        font-size: 15px;
+    }
+
+    .info-card p,
+    .info-card ul li {
+        font-size: 14px;
+    }
+
+
+    /* =========================
+       ABOUT
+    ========================= */
+
+    .about-us {
+        padding: 60px 20px;
+    }
+
+    .about-wrapper {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .about-side-image {
+        width: 100%;
+    }
+
+    .about-side-image.left img,
+    .about-side-image.right img {
+        width: 100%;
+        height: 250px;
+        border-radius: 10px;
+    }
+
+    .about-content {
+        padding: 25px 20px;
+    }
+
+    .about-icon i {
+        font-size: 65px;
+    }
+
+    .about-content h2 {
+        font-size: 28px;
+        margin-bottom: 25px;
+    }
+
+    .about-content p,
+    .about-content ul li {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+
+    /* =========================
+       POPULAR PESTS
+    ========================= */
+
+    .popular-pests {
+        padding: 45px 20px;
+    }
+
+    .pests-header {
+        grid-template-columns: 1fr;
+        gap: 15px;
+        margin-bottom: 35px;
+    }
+
+    .pests-header h2 {
+        font-size: 23px;
+    }
+
+    .pests-header p {
+        font-size: 14px;
+    }
+
+    .pests-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .pest-card {
+        border-radius: 20px;
+    }
+
+    .pest-content {
+        padding: 25px 20px 0;
+        min-height: auto;
+    }
+
+    .pest-top {
+        gap: 15px;
+    }
+
+    .pest-top h3 {
+        font-size: 17px;
+    }
+
+    .pest-top span {
+        min-width: 52px;
+        width: 52px;
+        height: 52px;
+        font-size: 22px;
+    }
+
+    .pest-image {
+        height: 230px;
+    }
+
+    .pest-image img {
+        border-radius: 20px 20px 0 0;
+    }
+
+
+    /* =========================
+       CONTACT HOME
+    ========================= */
+
+    .contact-section {
+        padding: 30px 15px;
+    }
+
+    .contact-box {
+        padding: 45px 20px;
+        border-radius: 20px;
+    }
+
+    .contact-tag {
+        font-size: 13px;
+    }
+
+    .contact-box h2 {
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+
+    .form-row {
+        grid-template-columns: 1fr;
+        gap: 15px;
+        margin-bottom: 15px;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        font-size: 15px;
+    }
+
+    .contact-form button {
+        width: 100%;
+        font-size: 16px;
+    }
+
+
+    /* =========================
+       FOOTER
+    ========================= */
+
+    .footer {
+        padding: 45px 20px;
+    }
+
+    .footer-top {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .newsletter {
+        grid-column: auto;
+    }
+
+    .newsletter form {
+        padding-left: 0;
+    }
+
+    .newsletter button {
+        margin-top: 35px;
+    }
+
+    .footer-bottom {
+        margin-top: 50px;
+        flex-direction: column;
+        gap: 25px;
+        text-align: center;
+    }
+
+    .social-icons {
+        gap: 30px;
+    }
+
+
+    /* =========================
+       CONTACT PAGE HERO
+    ========================= */
+
+    .contact-hero {
+        height: 280px;
+    }
+
+    .contact-hero-content h1 {
+        font-size: 32px;
+        letter-spacing: 1px;
+        padding: 0 20px;
+    }
+
+
+    /* =========================
+       CONTACT PAGE FORM
+    ========================= */
+
+    .contact-form-section {
+        padding: 50px 20px 80px;
+    }
+
+    .contact-form-box h2 {
+        font-size: 22px;
+    }
+
+    .contact-form-box .form-rows {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .form-group {
+        margin-bottom: 22px;
+    }
+
+    .form-group input {
+        height: 42px;
+    }
+
+    .form-group textarea {
+        height: 100px;
+    }
+
+    .contact-btn-wrap {
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    .contact-btn-wrap button {
+        width: 100%;
+    }
+
+
+    /* =========================
+       LEGAL
+    ========================= */
+
+    .legal-section,
+    .privacy-policy {
+        padding: 40px 20px;
+    }
+
+    .legal-grid {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .legal-box {
+        min-height: auto;
+        padding: 30px 20px;
+    }
+
+    .legal-box h2 {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+
+    .black-title {
+        margin-bottom: 40px !important;
+    }
+
+    .legal-content p,
+    .hosting-box p {
+        font-size: 14px;
+    }
+
+    .hosting-box h3 {
+        margin-bottom: 20px;
+    }
+
+    .privacy-policy h1 {
+        font-size: 34px;
+        margin-bottom: 40px;
+    }
+
+    .policy-block {
+        margin-bottom: 35px;
+    }
+
+    .policy-block h2 {
+        font-size: 26px;
+    }
+
+    .policy-block p,
+    .policy-block li {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+
+    /* =========================
+       PEST DETAIL
+    ========================= */
+
+    .pest-detail-page {
+        padding: 50px 20px;
+    }
+
+    .pest-layout {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .pest-sidebar {
+        position: static;
+        padding: 25px 20px;
+    }
+
+    .pest-sidebar h3 {
+        margin-top: 0;
+        font-size: 22px;
+    }
+
+    .pest-form input,
+    .pest-form textarea {
+        width: 100%;
+    }
+
+    .pest-form button {
+        margin-top: 30px;
+    }
+
+    .pest-tabs {
+        padding: 15px;
+    }
+
+    .tab-title {
+        font-size: 21px;
+    }
+
+    .pest-tabs a {
+        font-size: 14px;
+    }
+
+    .pest-article {
+        padding-top: 15px;
+    }
+
+    .pest-article h2 {
+        font-size: 27px;
+    }
+
+    .pest-article h3 {
+        font-size: 21px;
+    }
+
+    .pest-article p,
+    .pest-article li {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .pest-article ul {
+        padding-left: 30px;
+    }
+
+
+    /* =========================
+       FAQ
+    ========================= */
+
+    .faq-rat-section {
+        padding: 20px 15px 40px;
+    }
+
+    .faq-rat-title {
+        min-height: 55px;
+        padding: 12px;
+    }
+
+    .faq-rat-title h3 {
+        font-size: 17px;
+        line-height: 1.3;
+        padding-right: 10px;
+    }
+
+    .faq-rat-title span {
+        width: 28px;
+        height: 28px;
+    }
+
+    .faq-rat-content {
+        padding: 15px;
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+
+    /* =========================
+       BLOG LIST
+    ========================= */
+
+    .rat-blog-title {
+        font-size: 28px;
+    }
+
+    .rat-blog-all-card {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .rat-blog-card {
+        width: 100%;
+    }
+
+    .rat-blog-image {
+        height: 220px;
+    }
+
+    .rat-blog-content h3 {
+        font-size: 18px;
+    }
+
+    .rat-blog-content p {
+        font-size: 14px;
+    }
+
+
+    /* =========================
+       BLOG DETAIL HERO
+    ========================= */
+
+    .blog-hero {
+        height: 300px;
+        padding: 30px 20px;
+        justify-content: center;
+    }
+
+    .blog-hero h1 {
+        font-size: 30px;
+        line-height: 1.2;
+        padding-left: 0;
+    }
+
+    .blog-meta {
+        font-size: 13px;
+        padding-left: 0;
+    }
+
+
+    /* =========================
+       BLOG CONTENT
+    ========================= */
+
+    .blog-content {
+        padding: 35px 20px;
+    }
+
+    .share {
+        gap: 12px;
+        flex-wrap: wrap;
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+
+    .share .icons a i {
+        font-size: 18px;
+        margin-right: 8px;
+    }
+
+    .blog-text {
+        line-height: 1.6;
+    }
+
+    .blog-text p {
+        font-size: 14px;
+    }
+
+    .blog-text h2 {
+        font-size: 27px;
+        line-height: 1.3;
+    }
+
+    .blog-text h3 {
+        font-size: 21px;
+        line-height: 1.3;
+    }
+
+    .blog-text ul {
+        padding-left: 25px;
+    }
+
+
+    /* =========================
+       POST NAV
+    ========================= */
+
+    .post-nav {
+        margin-top: 35px;
+        gap: 20px;
+        font-size: 14px;
+    }
+
+
+    /* =========================
+       RECENT POSTS
+    ========================= */
+
+    .recent-posts {
+        padding: 0 20px 80px;
+    }
+
+    .posts-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .post-card img {
+        height: 220px;
+    }
+
+    .post-card h3 {
+        font-size: 21px;
+    }
+
+    .post-card p {
+        font-size: 14px;
+    }
+
+    .posts-btn {
+        width: 100%;
+        max-width: 280px;
+        height: 55px;
+    }
+
+
+    /* =========================
+       BLOG FAQ
+    ========================= */
+
+    .blog-faq-section {
+        padding: 25px 20px 70px;
+    }
+
+    .blog-faq-heading {
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+
+    .blog-faq-item {
+        margin-bottom: 35px;
+    }
+
+    .blog-faq-question {
+        font-size: 13px;
+        line-height: 1.5;
+    }
+
+    .blog-faq-answer {
+        padding: 20px 12px;
+    }
+
+    .blog-faq-answer p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+
+    /* =========================
+       BLOG SHARE
+    ========================= */
+
+    .blog-share-section {
+        margin: 50px 0;
+        padding: 15px 20px;
+    }
+
+    .blog-share-icons {
+        gap: 18px;
+    }
+
+    .blog-share-icons a {
+        width: 32px;
+        height: 32px;
+    }
+
+    .blog-share-icons a i {
+        font-size: 19px;
+    }
+}
+
+
+/* =========================================================
+   SMALL MOBILE
+   480px and below
+========================================================= */
+
+@media (max-width: 480px) {
+
+    .hero-card h1 {
+        font-size: 27px;
+    }
+
+    .hero-card h3 {
+        font-size: 17px;
+    }
+
+    .identify-card h2 {
+        font-size: 24px;
+    }
+
+    .section-title h2 {
+        font-size: 24px;
+    }
+
+    .about-content h2 {
+        font-size: 25px;
+    }
+
+    .pests-header h2 {
+        font-size: 21px;
+    }
+
+    .contact-box h2 {
+        font-size: 18px;
+    }
+
+    .contact-hero {
+        height: 240px;
+    }
+
+    .contact-hero-content h1 {
+        font-size: 27px;
+    }
+
+    .privacy-policy h1 {
+        font-size: 29px;
+    }
+
+    .policy-block h2 {
+        font-size: 23px;
+    }
+
+    .blog-hero {
+        height: 260px;
+    }
+
+    .blog-hero h1 {
+        font-size: 26px;
+    }
+
+    .faq-rat-title h3 {
+        font-size: 15px;
+    }
+
+    .post-nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
