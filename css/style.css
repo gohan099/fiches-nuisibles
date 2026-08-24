@@ -1787,6 +1787,66 @@ HERO
     center center / cover no-repeat;
 }
 
+.ants-page-7{
+    background: url('../images/moustique.webp')
+    center center / cover no-repeat;
+}
+
+.ants-page-8{
+    background: url('../images/moustique-2.webp')
+    center center / cover no-repeat;
+}
+
+.ants-page-9{
+    background: url('../images/cockroach-1.webp')
+    center center / cover no-repeat;
+}
+
+.ants-page-10{
+    background: url('../images/ants-1.webp')
+    center center / cover no-repeat;
+}
+
+.ants-page-11{
+    background: url('../images/puces.webp')
+    center center / cover no-repeat;
+}
+
+.ants-page-12{
+    background: url('../images/punaises.webp')
+    center center / cover no-repeat;
+}
+
+.ants-page-13{
+    background: url('../images/peigen.webp')
+    center center / cover no-repeat;
+}
+
+.ants-page-14{
+    background: url('../images/tupes.webp')
+    center center / cover no-repeat;
+}
+
+.ants-page-15{
+    background: url('../images/tiques.webp')
+    center center / cover no-repeat;
+}
+
+.ants-page-16{
+    background: url('../images/chenilles.webp')
+    center center / cover no-repeat;
+}
+
+.ants-page-17{
+    background: url('../images/insect-2.webp')
+    center center / cover no-repeat;
+}
+
+.ants-page-18{
+    background: url('../images/fouines.webp')
+    center center / cover no-repeat;
+}
+
 .bee-page{
     background: url('../images/bee.jpg')
     center center/cover no-repeat;
@@ -1795,22 +1855,94 @@ HERO
 
 /* blog images */
 
-.blog-hero-11{
-    background: url("../images/blog-detail-11.png") center/cover no-repeat;
+.blog-details-1{
+    background: url("../images/blog-details-1.webp") center/cover no-repeat;
 }
 
-.blog-hero-12{
-    background: url("../assests/images/blog-detail/blog-12.jpg") center/cover no-repeat;
+.blog-details-2{
+    background: url("../images/blog-details-2.webp") center/cover no-repeat;
 }
 
-.blog-hero-13{
-    background: url("../assests/images/blog-detail/blog-13.jpg") center/cover no-repeat;
+.blog-details-3{
+    background: url("../images/blog-details-3.webp") center/cover no-repeat;
 }
 
-.blog-hero-14{
-    background: url("../assests/images/blog-detail/blog-14.jpg") center/cover no-repeat;
+.blog-details-4{
+    background: url("../images/blog-details-4.webp") center/cover no-repeat;
 }
 
-.blog-hero-15{
-    background: url("../assests/images/blog-detail/blog-15.jpg") center/cover no-repeat;
+.blog-details-5{
+    background: url("../images/blog-details-5.webp") center/cover no-repeat;
+}
+
+.blog-details-6{
+    background: url("../images/blog-details-6.webp") center/cover no-repeat;
+}
+
+.blog-details-7{
+    background: url("../images/blog-details-7.webp") center/cover no-repeat;
+}
+
+.blog-details-8{
+    background: url("../images/blog-details-8.webp") center/cover no-repeat;
+}
+
+.blog-details-9{
+    background: url("../images/blog-details-9.webp") center/cover no-repeat;
+}
+
+.blog-details-10{
+    background: url("../images/blog-details-10.webp") center/cover no-repeat;
+}
+
+.blog-details-11{
+    background: url("../images/blog-details-11.webp") center/cover no-repeat;
+}
+
+.blog-details-12{
+    background: url("../images/blog-details-12.webp") center/cover no-repeat;
+}
+
+.blog-details-13{
+    background: url("../images/blog-details-13.webp") center/cover no-repeat;
+}
+
+.blog-details-14{
+    background: url("../images/blog-details-14.webp") center/cover no-repeat;
+}
+
+.blog-details-15{
+    background: url("../images/blog-details-15.webp") center/cover no-repeat;
+}
+
+.blog-details-16{
+    background: url("../images/blog-details-16.webp") center/cover no-repeat;
+}
+
+.blog-details-17{
+    background: url("../images/blog-details-17.webp") center/cover no-repeat;
+}
+
+.blog-details-18{
+    background: url("../images/blog-details-18.webp") center/cover no-repeat;
+}
+
+.blog-details-19{
+    background: url("../images/blog-details-19.webp") center/cover no-repeat;
+}
+
+.blog-details-20{
+    background: url("../images/blog-details-20.webp") center/cover no-repeat;
+}
+
+.blog-details-21{
+    background: url("../images/blog-details-21.webp") center/cover no-repeat;
+}
+
+.blog-details-22{
+    background: url("../images/blog-details-22.webp") center/cover no-repeat;
+}
+
+.blog-details-23{
+    background: url("../images/blog-details-23.webp") center/cover no-repeat;
 }
